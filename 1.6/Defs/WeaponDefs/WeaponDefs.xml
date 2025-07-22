@@ -3,11 +3,15 @@
 
 <Defs>
 
+<!--____Assault Rifles____-->
+
+<!--__Assault Rifle__-->
+
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Weapon_ARifle</defName>
+    <defName>Weapon_AssaultRifle</defName>
     <label>Assault Rifle</label>
     <techLevel>Spacer</techLevel>
-    <description>A darned good assault rifle from T and L, improved for use by (or on) Iconoclasts.</description>
+    <description>Can't decide on what weapon characteristics are most important to you? Forget to switch weapons during a fight? This T and L assault rifle is for you. It's always a good choice.</description>
     <graphicData>
       <texPath>Weapons/ARifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -36,11 +40,11 @@
     </statBases>
     <equippedAngleOffset>15</equippedAngleOffset>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>50</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <weaponTags>
-      <li>pphhyy_M43PulseRifle</li>
+      <li>Weapon_AssaultRifle</li>
     </weaponTags>
     <verbs>
       <li>
@@ -49,9 +53,9 @@
         <defaultProjectile>Projectile_ArifleBullet</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>30.9</range>
-        <burstShotCount>3</burstShotCount>
+        <burstShotCount>10</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>pphhyy_PulseRifleSound</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -82,21 +86,11 @@
       <li Class="CompProperties_Styleable"/>
       <li Class="CompProperties_Forbiddable"/>
     </comps>
-    <modExtensions>
-      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
-        <def>MF_StandardMuzzleFalshThree</def>
-        <drawSize>(0.6,0.6)</drawSize>
-        <isAlternately>true</isAlternately>
-        <offsets>
-          <li>(0.46,0.04)</li>
-        </offsets>
-      </li>
-    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
     <defName>Projectile_ArifleBullet</defName>
-    <label>M4 3Pulse Rifle bullet</label>
+    <label>Assault Rifle Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -105,9 +99,204 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
       <speed>70</speed>
-      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <armorPenetrationBase>0.20</armorPenetrationBase>
     </projectile>
   </ThingDef>
 
+<!--__Assault Rifle Ultra__-->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Weapon_AssaultRifle</defName>
+    <label>Assault Rifle</label>
+    <techLevel>Spacer</techLevel>
+    <description>A versatile weapon, packing a hard punch, usable for fast firing at close range as well as accurate shooting at longer ranges.</description>
+    <graphicData>
+      <texPath>Weapons/ARifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.69</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>15</equippedAngleOffset>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>Weapon_AssaultRifleUltra</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_ArifleBulletUltra</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>33.9</range>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Projectile_ArifleBulletUltra</defName>
+    <label>Assault Rifle Ultra Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <speed>70</speed>
+      <armorPenetrationBase>0.30</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+<!--__Iconoclast Assault Rifle__-->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Weapon_IconoclastAssaultRifle</defName>
+    <label>Iconoclast Assault Rifle</label>
+    <techLevel>Spacer</techLevel>
+    <description>A darned good assault rifle from T and L, improved for use by (or on) Iconoclasts.</description>
+    <graphicData>
+      <texPath>Weapons/ARifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.71</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>15</equippedAngleOffset>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>Weapon_AssaultRifleUltra</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Projectile_ArifleBulletIconoclast</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>33.9</range>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Projectile_ArifleBulletIconoclast</defName>
+    <label>Iconoclast Assault Rifle Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <speed>70</speed>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
 
 </Defs>
