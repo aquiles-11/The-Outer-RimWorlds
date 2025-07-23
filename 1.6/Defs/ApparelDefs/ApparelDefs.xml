@@ -2,9 +2,9 @@
 
 <Defs>
 
-<!--____Iconoclast Armor____-->
+  <!--____Iconoclast Armor____-->
 
-<!--__Heavy Construction Clear__-->
+  <!--__Heavy Construction Clear__-->
 
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_HeavyConstructionGear</defName>
@@ -52,12 +52,11 @@
       <li>Armor</li>
     </tradeTags>
     <costList>
-      <ComponentSpacer>5</ComponentSpacer>
-      <Plasteel>135</Plasteel>
-      <Uranium>40</Uranium>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Steel>135</Steel>
     </costList>
     <apparel>
-            <tags>
+      <tags>
         <li>SpacerMilitary</li>
       </tags>
       <bodyPartGroups>
@@ -108,8 +107,8 @@
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
   </ThingDef>
-    
-<!--__Heavy Construction Clear (Modified)__-->
+
+  <!--__Heavy Construction Clear (Modified)__-->
 
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_HeavyConstructionGearModified</defName>
@@ -156,12 +155,11 @@
       <li>Armor</li>
     </tradeTags>
     <costList>
-      <ComponentSpacer>6</ComponentSpacer>
-      <Plasteel>145</Plasteel>
-      <Uranium>40</Uranium>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Steel>145</Steel>
     </costList>
     <apparel>
-            <tags>
+      <tags>
         <li>SpacerMilitary</li>
       </tags>
       <bodyPartGroups>
@@ -213,7 +211,7 @@
     </thingSetMakerTags>
   </ThingDef>
 
-<!--__Brawny Construction Gear__-->
+  <!--__Brawny Construction Gear__-->
 
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_BrawnyConstructionGear</defName>
@@ -260,12 +258,11 @@
       <li>Armor</li>
     </tradeTags>
     <costList>
-      <ComponentSpacer>6</ComponentSpacer>
-      <Plasteel>150</Plasteel>
-      <Uranium>50</Uranium>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Steel>150</Steel>
     </costList>
     <apparel>
-            <tags>
+      <tags>
         <li>SpacerMilitary</li>
       </tags>
       <bodyPartGroups>
@@ -317,7 +314,7 @@
     </thingSetMakerTags>
   </ThingDef>
 
-<!--__Iconoclast Apostle Armor__-->
+  <!--__Iconoclast Apostle Armor__-->
 
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_IconoclastApostleArmor</defName>
@@ -364,12 +361,11 @@
       <li>Armor</li>
     </tradeTags>
     <costList>
-      <ComponentSpacer>8</ComponentSpacer>
-      <Plasteel>150</Plasteel>
-      <Uranium>60</Uranium>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Steel>150</Steel>
     </costList>
     <apparel>
-            <tags>
+      <tags>
         <li>SpacerMilitary</li>
       </tags>
       <bodyPartGroups>

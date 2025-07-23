@@ -46,8 +46,8 @@
       <EquipDelay>6</EquipDelay>
     </statBases>
     <costList>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Plasteel>45</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>45</Steel>
     </costList>
     <equippedStatOffsets>
       <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
@@ -145,8 +145,8 @@
       <EquipDelay>6</EquipDelay>
     </statBases>
     <costList>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Steel>60</Steel>
     </costList>
     <equippedStatOffsets>
       <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
