@@ -33,7 +33,7 @@
         <prerequisites>
             <li>Research_Starting</li>
         </prerequisites>
-        <researchViewX>0.00</researchViewX>
+        <researchViewX>1.50</researchViewX>
         <researchViewY>1.00</researchViewY>
     </ResearchProjectDef>    
 
@@ -47,7 +47,7 @@
         <prerequisites>
             <li>Research_Middle</li>
         </prerequisites>
-        <researchViewX>0.00</researchViewX>
+        <researchViewX>3.00</researchViewX>
         <researchViewY>1.00</researchViewY>
     </ResearchProjectDef>    
 
@@ -61,7 +61,7 @@
         <prerequisites>
             <li>Research_Advanced</li>
         </prerequisites>
-        <researchViewX>0.00</researchViewX>
+        <researchViewX>4.50</researchViewX>
         <researchViewY>1.00</researchViewY>
     </ResearchProjectDef>    
 
