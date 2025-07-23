@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+    <ResearchTabDef>
+        <defName>Research_TheOuterRimworlds</defName>
+        <label>The Outer Rimworlds</label>
+        <generalTitle>The Outer Rimworlds Research</generalTitle>
+        <generalDescription>You'll find the best weaponry and armory nowhere else than this tab.</generalDescription>
+    </ResearchTabDef>
+
+    <ResearchProjectDef>
+        <defName>Research_Starting</defName>
+        <label>Starting research</label>
+        <description>Starting research for the outer rimworlds.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Research_TheOuterRimworlds</tab>
+        <prerequisites>
+            <li>Machining</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>Research_Middle</defName>
+        <label>Modified research</label>
+        <description>Research for the modified versions of the outer rimworlds armory.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Research_TheOuterRimworlds</tab>
+        <prerequisites>
+            <li>Research_Starting</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
+    </ResearchProjectDef>    
+
+    <ResearchProjectDef>
+        <defName>Research_Advanced</defName>
+        <label>Advanced research</label>
+        <description>Research for most of the top armory in the outer rimworlds.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Research_TheOuterRimworlds</tab>
+        <prerequisites>
+            <li>Research_Middle</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
+    </ResearchProjectDef>    
+
+    <ResearchProjectDef>
+        <defName>Research_Mega</defName>
+        <label>Final research</label>
+        <description>Research for the TOP of the TOP in armory, only in the outer rimworlds.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <tab>Research_TheOuterRimworlds</tab>
+        <prerequisites>
+            <li>Research_Advanced</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
+    </ResearchProjectDef>    
+
+
+</Defs>
