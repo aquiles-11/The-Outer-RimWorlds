@@ -56,6 +56,20 @@
       <Steel>135</Steel>
     </costList>
     <apparel>
+      <drawData>
+        <dataNorth>
+          <layer>78</layer>
+        </dataNorth>
+        <dataSouth>
+          <layer>78</layer>
+        </dataSouth>
+        <dataEast>
+          <layer>78</layer>
+        </dataEast>
+        <dataWest>
+          <layer>78</layer>
+        </dataWest>
+      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>
@@ -159,6 +173,20 @@
       <Steel>145</Steel>
     </costList>
     <apparel>
+      <drawData>
+        <dataNorth>
+          <layer>78</layer>
+        </dataNorth>
+        <dataSouth>
+          <layer>78</layer>
+        </dataSouth>
+        <dataEast>
+          <layer>78</layer>
+        </dataEast>
+        <dataWest>
+          <layer>78</layer>
+        </dataWest>
+      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>
@@ -262,6 +290,20 @@
       <Steel>150</Steel>
     </costList>
     <apparel>
+      <drawData>
+        <dataNorth>
+          <layer>78</layer>
+        </dataNorth>
+        <dataSouth>
+          <layer>78</layer>
+        </dataSouth>
+        <dataEast>
+          <layer>78</layer>
+        </dataEast>
+        <dataWest>
+          <layer>78</layer>
+        </dataWest>
+      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>
@@ -365,6 +407,20 @@
       <Steel>150</Steel>
     </costList>
     <apparel>
+      <drawData>
+        <dataNorth>
+          <layer>78</layer>
+        </dataNorth>
+        <dataSouth>
+          <layer>78</layer>
+        </dataSouth>
+        <dataEast>
+          <layer>78</layer>
+        </dataEast>
+        <dataWest>
+          <layer>78</layer>
+        </dataWest>
+      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>

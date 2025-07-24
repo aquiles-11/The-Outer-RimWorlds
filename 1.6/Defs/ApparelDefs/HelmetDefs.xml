@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>  
+<?xml version="1.0" encoding="UTF-8"?>
 
 <Defs>
 
-<!--____Iconoclast Helmets____-->
+  <!--____Iconoclast Helmets____-->
 
-<!--__Full Cranial Helmet__-->
+  <!--__Full Cranial Helmet__-->
 
- <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_FullCranialHelmet</defName>
     <label>Full Cranial Helmet</label>
     <description>Iconoclast Helmet. Of all the body parts to protect, your cranium is in the top two! This Hephaestos helmet will prevent any dread to your head.</description>
@@ -53,6 +53,14 @@
       <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
+      <drawData>
+        <dataEast>
+          <offset>(-0.05, 0, 0.05)</offset>
+        </dataEast>
+        <dataWest>
+          <offset>(0.05, 0, 0.05)</offset>
+        </dataWest>
+      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>
@@ -103,9 +111,9 @@
     </thingSetMakerTags>
   </ThingDef>
 
-<!--__Iconoclast Apostle Helmet__-->
+  <!--__Iconoclast Apostle Helmet__-->
 
- <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_IconoclastApostleHelmet</defName>
     <label>Iconoclast Apostle Helmet</label>
     <description>Iconoclast helmet made specially for an Apostle.</description>
@@ -152,6 +160,14 @@
       <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
+      <drawData>
+        <dataEast>
+          <offset>(-0.05, 0, 0.05)</offset>
+        </dataEast>
+        <dataWest>
+          <offset>(0.05, 0, 0.05)</offset>
+        </dataWest>
+      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>

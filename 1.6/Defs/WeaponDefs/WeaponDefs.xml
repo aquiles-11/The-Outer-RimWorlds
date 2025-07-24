@@ -106,7 +106,7 @@
 <!--__Assault Rifle Ultra__-->
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Weapon_AssaultRifle</defName>
+    <defName>Weapon_AssaultRifleUltra</defName>
     <label>Assault Rifle</label>
     <techLevel>Spacer</techLevel>
     <description>A versatile weapon, packing a hard punch, usable for fast firing at close range as well as accurate shooting at longer ranges.</description>
