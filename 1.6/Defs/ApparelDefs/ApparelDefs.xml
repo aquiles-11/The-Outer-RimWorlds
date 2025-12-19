@@ -22,11 +22,16 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Apparel/IconoclastArmor/OWHeavy</texPath>
+      <texPath>Apparel/Heavyconstruction/Heavyconstruction</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.3</drawSize>
     </graphicData>
+    <equippedStatOffsets>
+      <MeleeDamageFactor>0.10</MeleeDamageFactor>
+      <MeleeHitChance>0.2</MeleeHitChance>
+      <MeleeDodgeChance>0.10</MeleeDodgeChance>
+    </equippedStatOffsets>
     <generateCommonality>2</generateCommonality>
     <statBases>
       <WorkToMake>65000</WorkToMake>
@@ -80,7 +85,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/IconoclastArmor/OWHeavy</wornGraphicPath>
+      <wornGraphicPath>Apparel/Heavyconstruction/Heavyconstruction</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
@@ -140,12 +145,17 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Apparel/IconoclastArmor/OWHeavy</texPath>
+      <texPath>Apparel/Heavyconstruction/Heavyconstruction</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.3</drawSize>
     </graphicData>
     <generateCommonality>2</generateCommonality>
+    <equippedStatOffsets>
+      <MeleeDamageFactor>0.15</MeleeDamageFactor>
+      <MeleeHitChance>0.25</MeleeHitChance>
+      <MeleeDodgeChance>0.15</MeleeDodgeChance>
+    </equippedStatOffsets>
     <statBases>
       <WorkToMake>65000</WorkToMake>
       <MaxHitPoints>340</MaxHitPoints>
@@ -197,7 +207,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/IconoclastArmor/OWHeavy</wornGraphicPath>
+      <wornGraphicPath>Apparel/Heavyconstruction/Heavyconstruction</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
@@ -257,19 +267,24 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Apparel/IconoclastArmor/OWHeavy</texPath>
+      <texPath>Apparel/Upgradevariants/Heavyconstruction/Heavyconstruction</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.3</drawSize>
     </graphicData>
     <generateCommonality>2</generateCommonality>
+    <equippedStatOffsets>
+      <MeleeDamageFactor>0.25</MeleeDamageFactor>
+      <MeleeHitChance>0.3</MeleeHitChance>
+      <MeleeDodgeChance>0.2</MeleeDodgeChance>
+    </equippedStatOffsets>
     <statBases>
       <WorkToMake>65000</WorkToMake>
       <MaxHitPoints>340</MaxHitPoints>
       <Mass>12</Mass>
       <Flammability>0.4</Flammability>
-      <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
       <ArmorRating_Heat>0.8</ArmorRating_Heat>
       <Insulation_Cold>5</Insulation_Cold>
       <Insulation_Heat>5</Insulation_Heat>
@@ -314,7 +329,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/IconoclastArmor/OWHeavy</wornGraphicPath>
+      <wornGraphicPath>Apparel/Upgradevariants/Heavyconstruction/Heavyconstruction</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
@@ -374,19 +389,24 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Apparel/IconoclastArmor/OWHeavy</texPath>
+      <texPath>Apparel/Upgradevariants/Heavyconstruction/Heavyconstruction</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.3</drawSize>
     </graphicData>
     <generateCommonality>2</generateCommonality>
+    <equippedStatOffsets>
+      <MeleeDamageFactor>0.25</MeleeDamageFactor>
+      <MeleeHitChance>0.3</MeleeHitChance>
+      <MeleeDodgeChance>0.25</MeleeDodgeChance>
+    </equippedStatOffsets>
     <statBases>
       <WorkToMake>65000</WorkToMake>
       <MaxHitPoints>340</MaxHitPoints>
       <Mass>12</Mass>
       <Flammability>0.4</Flammability>
-      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.4</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1.3</ArmorRating_Blunt>
       <ArmorRating_Heat>1</ArmorRating_Heat>
       <Insulation_Cold>5</Insulation_Cold>
       <Insulation_Heat>5</Insulation_Heat>
@@ -431,7 +451,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/IconoclastArmor/OWHeavy</wornGraphicPath>
+      <wornGraphicPath>Apparel/Upgradevariants/Heavyconstruction/Heavyconstruction</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
@@ -472,5 +492,240 @@
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
   </ThingDef>
+
+<!--__Anti Riot Armor__-->
+
+ <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Apparel_AntiRiotGear</defName>
+    <label>Anti-Riot Gear</label>
+    <description>“This Iconoclast rioter outfit was put together from anti-riot gear from some unfortunate peace officers. How ironic”</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>Research_Starting</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/Anti-Riot/anti-Riot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+    <generateCommonality>2</generateCommonality>
+    <statBases>
+      <WorkToMake>65000</WorkToMake>
+      <MaxHitPoints>340</MaxHitPoints>
+      <Mass>12</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>HiTechArmor</li>
+      <li>Armor</li>
+    </tradeTags>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>65</Cloth>
+    </costList>
+    <apparel>
+      <drawData>
+        <dataNorth>
+          <layer>78</layer>
+        </dataNorth>
+        <dataEast>
+          <layer>78</layer>
+        </dataEast>
+        <dataWest>
+          <layer>78</layer>
+        </dataWest>
+      </drawData>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Anti-Riot/anti-Riot</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+<!--__Anti Riot Armor (modified)__-->
+
+ <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Apparel_AntiRiotGearModified</defName>
+    <label>Anti-Riot Gear (Modified)</label>
+    <description>“This Iconoclast rioter outfit was put together from anti-riot gear from some unfortunate peace officers. How ironic”</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>Research_Middle</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/Upgradevariants/Anti-Riot/anti-Riot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>0.35</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <generateCommonality>2</generateCommonality>
+    <statBases>
+      <WorkToMake>65000</WorkToMake>
+      <MaxHitPoints>340</MaxHitPoints>
+      <Mass>12</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.5</ArmorRating_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>5</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>HiTechArmor</li>
+      <li>Armor</li>
+    </tradeTags>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Cloth>85</Cloth>
+    </costList>
+    <apparel>
+      <drawData>
+        <dataNorth>
+          <layer>78</layer>
+        </dataNorth>
+        <dataEast>
+          <layer>78</layer>
+        </dataEast>
+        <dataWest>
+          <layer>78</layer>
+        </dataWest>
+      </drawData>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Upgradevariants/Anti-Riot/anti-Riot</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
 
 </Defs>

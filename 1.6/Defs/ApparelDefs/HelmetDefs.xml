@@ -22,7 +22,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Helmets/IconoclastHelmet/OWHeavyHelm_south</texPath>
+      <texPath>Apparel/Heavyconstruction/HeavyconstructionHelm_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.3</drawSize>
@@ -67,7 +67,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Helmets/IconoclastHelmet/OWHeavyHelm</wornGraphicPath>
+      <wornGraphicPath>Apparel/Heavyconstruction/HeavyconstructionHelm</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -129,11 +129,14 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Helmets/IconoclastHelmet/OWHeavyHelm_south</texPath>
+      <texPath>Apparel/Heavyconstruction/HeavyconstructionHelm_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.3</drawSize>
     </graphicData>
+    <equippedStatOffsets>
+      <MeleeDamageFactor>0.15</MeleeDamageFactor>
+    </equippedStatOffsets>
     <uiIconScale>1.25</uiIconScale>
     <tradeTags>
       <li>HiTechArmor</li>
@@ -174,7 +177,221 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Helmets/IconoclastHelmet/OWHeavyHelm</wornGraphicPath>
+      <wornGraphicPath>Apparel/Heavyconstruction/HeavyconstructionHelm</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+<!--__Anti Riot Helm__-->
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_VentedMark3Helm</defName>
+    <label>vented mark III helmet</label>
+    <description>“Iconoclast Helmet. This old-model Hephaestos helmet was intended for mining and work in high-particulate areas. Now it's just headgear for apolitical non-conformists!”</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>Research_Starting</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/Anti-Riot/anti-RiotHelm_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <tradeTags>
+      <li>HiTechArmor</li>
+      <li>Armor</li>
+    </tradeTags>
+    <generateCommonality>2</generateCommonality>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>45</Steel>
+    </costList>
+    <equippedStatOffsets>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <drawData>
+        <dataEast>
+          <offset>(0.05, 0, 0)</offset>
+        </dataEast>
+        <dataWest>
+          <offset>(-0.05, 0, 0)</offset>
+        </dataWest>
+      </drawData>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Anti-Riot/anti-RiotHelm</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+<!--__Anti Riot Helm__-->
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_VentedMark4Helm</defName>
+    <label>vented mark IV helmet</label>
+    <description>“Iconoclast Helmet. This old-model Hephaestos helmet was intended for mining and work in high-particulate areas. Now it's just headgear for apolitical non-conformists!”</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>Research_Middle</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/Anti-Riot/anti-RiotHelm_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <tradeTags>
+      <li>HiTechArmor</li>
+      <li>Armor</li>
+    </tradeTags>
+    <generateCommonality>2</generateCommonality>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.4</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>40</Steel>
+    </costList>
+    <equippedStatOffsets>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <drawData>
+        <dataEast>
+          <offset>(0.05, 0, 0)</offset>
+        </dataEast>
+        <dataWest>
+          <offset>(-0.05, 0, 0)</offset>
+        </dataWest>
+      </drawData>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Anti-Riot/anti-RiotHelm</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
