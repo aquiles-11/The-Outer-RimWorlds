@@ -145,7 +145,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Apparel/Heavyconstruction/Heavyconstruction</texPath>
+      <texPath>Apparel/Upgradevariants/Heavyconstruction/Heavyconstruction</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.3</drawSize>
@@ -207,7 +207,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/Heavyconstruction/Heavyconstruction</wornGraphicPath>
+      <wornGraphicPath>Apparel/Upgradevariants/Heavyconstruction/Heavyconstruction</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
