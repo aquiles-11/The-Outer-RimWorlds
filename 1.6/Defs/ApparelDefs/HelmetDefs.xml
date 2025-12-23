@@ -53,14 +53,6 @@
       <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
-      <drawData>
-        <dataEast>
-          <offset>(0.05, 0, 0)</offset>
-        </dataEast>
-        <dataWest>
-          <offset>(-0.05, 0, 0)</offset>
-        </dataWest>
-      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>
@@ -163,14 +155,6 @@
       <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
-      <drawData>
-        <dataEast>
-          <offset>(0.05, 0, 0)</offset>
-        </dataEast>
-        <dataWest>
-          <offset>(-0.05, 0, 0)</offset>
-        </dataWest>
-      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>
@@ -270,14 +254,6 @@
       <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
-      <drawData>
-        <dataEast>
-          <offset>(0.05, 0, 0)</offset>
-        </dataEast>
-        <dataWest>
-          <offset>(-0.05, 0, 0)</offset>
-        </dataWest>
-      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>
@@ -377,14 +353,6 @@
       <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
-      <drawData>
-        <dataEast>
-          <offset>(0.05, 0, 0)</offset>
-        </dataEast>
-        <dataWest>
-          <offset>(-0.05, 0, 0)</offset>
-        </dataWest>
-      </drawData>
       <tags>
         <li>SpacerMilitary</li>
       </tags>

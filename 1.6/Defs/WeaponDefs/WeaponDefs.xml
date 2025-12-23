@@ -311,7 +311,7 @@
     <graphicData>
       <texPath>Weapons/Revolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -407,7 +407,7 @@
     <graphicData>
       <texPath>Weapons/Revolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -478,7 +478,7 @@
     </comps>
   </ThingDef>
 
-<!--__(Spacer Choice) Revolver__-->
+<!--__(Spacer Choice) Revolver mk2 __-->
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Weapon_SpacerChoiceMk2Revolver</defName>
@@ -488,7 +488,7 @@
     <graphicData>
       <texPath>Weapons/Revolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -643,6 +643,7 @@
     <graphicData>
       <texPath>Weapons/PlasmaKnife</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <techLevel>Spacer</techLevel>
@@ -656,7 +657,7 @@
       <Mass>0.85</Mass>
     </statBases>
     <relicChance>2</relicChance>
-    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedAngleOffset>-45</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
