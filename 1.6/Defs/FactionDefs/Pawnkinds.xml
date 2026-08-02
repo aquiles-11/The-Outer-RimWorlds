@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+ <PawnKindDef Name= "IconoclastFactionPawnBase" Abstract= "true">
+    <race>Human</race>
+    <initialWillRange>2~4</initialWillRange>
+    <defaultFactionType>Faction_Iconoclast</defaultFactionType>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <apparelMoney>350~1500</apparelMoney>
+    <apparelIgnoreSeasons>True</apparelIgnoreSeasons>
+    <apparelIgnorePollution>True</apparelIgnorePollution>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <apparelTags>
+      <li>IconoclastApparel</li>
+    </apparelTags>
+    <useFactionXenotypes>true</useFactionXenotypes>
+    <weaponMoney>500~2500</weaponMoney>
+    <initialResistanceRange>13~21</initialResistanceRange>
+    <inventoryOptions>
+      <subOptionsTakeAll>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+        <li>
+          <thingDef>MealSurvivalPack</thingDef>
+          <countRange>2</countRange>
+        </li>
+      </subOptionsTakeAll>
+    </inventoryOptions>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+        <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+        <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+        <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+        <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+        <Impid MayRequire="Ludeon.RimWorld.Biotech">0</Impid>
+        <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0</Sanguophage>
+        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+  </PawnKindDef>
+
+<PawnKindDef ParentName="IconoclastFactionPawnBase">
+    <defName>Iconoclast_Rioter</defName>
+    <label>iconoclast rioter</label>
+    <combatPower>50</combatPower>
+    <apparelRequired>
+      <li>Apparel_AntiRiotGear</li>
+      <li>Apparel_VentedMark3Helm</li>
+    </apparelRequired>
+    <weaponTags>
+      <li>OW_Weapon_AssaultRifle</li>
+      <li>MeleeWeapon_PlasmaCutter</li>
+    </weaponTags>
+  </PawnKindDef>
+
+<PawnKindDef ParentName="IconoclastFactionPawnBase">
+    <defName>Iconoclast_Agitator</defName>
+    <label>iconoclast agitator</label>
+    <combatPower>60</combatPower>
+    <apparelRequired>
+      <li>Apparel_HeavyConstructionGearModified</li>
+      <li>Apparel_IconoclastApostleHelmet</li>
+    </apparelRequired>
+    <weaponTags>
+      <li>Weapon_AssaultRifleUltra</li>
+      <li>MeleeWeapon_IconoclastCleaver</li>
+    </weaponTags>
+  </PawnKindDef>
+
+<PawnKindDef ParentName="IconoclastFactionPawnBase">
+    <defName>Iconoclast_Trader</defName>
+    <label>iconoclast trader</label>
+    <combatPower>40</combatPower>
+    <apparelRequired>
+      <li>Apparel_AntiRiotGear</li>
+      <li>Apparel_VentedMark3Helm</li>
+    </apparelRequired>
+    <trader>true</trader>
+     <weaponTags>
+      <li>Weapon_IconoclastRevolver</li>
+      <li>MeleeWeapon_PlasmaCutter</li>
+    </weaponTags>
+  </PawnKindDef>
+
+<PawnKindDef ParentName="IconoclastFactionPawnBase">
+    <defName>Iconoclast_Revolutionary</defName>
+    <label>iconoclast revolutionary</label>
+    <combatPower>90</combatPower>
+    <apparelRequired>
+      <li>Apparel_IconoclastApostleArmor</li>
+      <li>Apparel_IconoclastApostleHelmet</li>
+    </apparelRequired>
+    <weaponTags>
+      <li>Weapon_AssaultRifleUltra</li>
+      <li>MeleeWeapon_IconoclastCleaver</li>
+    </weaponTags>
+  </PawnKindDef>
+
+<PawnKindDef ParentName="IconoclastFactionPawnBase">
+    <defName>Iconoclast_Leader</defName>
+    <label>iconoclast leader</label>
+    <combatPower>100</combatPower>
+    <apparelRequired>
+      <li>Apparel_IconoclastApostleArmor</li>
+      <li>Apparel_IconoclastApostleHelmet</li>
+    </apparelRequired>
+    <factionLeader>true</factionLeader>
+    <weaponTags>
+      <li>Weapon_IconoclastAssaultRifle</li>
+      <li>Weapon_IconoclastRevolver</li>
+    </weaponTags>
+  </PawnKindDef>
+
+</Defs>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+
+    <ScenarioDef ParentName="ScenarioBase">
+        <defName>Scenario_Iconoclast</defName>
+        <label>The Long March of the Iconoclasts</label>
+        <description>The Iconoclasts were never meant to stay confined to Monarch. Graham Bryant believes the message must spread—corporate control must be broken wherever it festers. With supplies scraped together from salvaged freighters and donations from sympathizers, a small cadre of true believers is dispatched into the void.
+
+Their destination is a distant, lawless planet. No Board presence. No infrastructure. No guarantees.
+
+Here, they must survive brutal conditions, hostile locals, and their own ideological purity. Every structure must be built from scratch, every weapon earned, every victory defended. Will they become a beacon of resistance, proving Graham’s vision can thrive anywhere? Or will idealism crumble under hunger, fear, and the unforgiving Outer Steads?
+
+The revolution has landed. Now it must endure.</description>
+        <scenario>
+            <summary>A small band of Iconoclasts leaves Monarch behind to carry the revolution beyond Halcyon.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>PlayerColony</factionDef>
+            </playerFaction>
+            <parts>
+
+                <!-- Config pages -->
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                    <pawnCount>4</pawnCount>
+                </li>
+
+                <!-- Player starting stuff spawn method-->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                </li>
+
+                <!-- Player starting stuff -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>800</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <count>60</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <count>30</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <count>30</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Steel</thingDef>
+                    <count>450</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>300</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <stuff>Plasteel</stuff>
+                    <thingDef>MeleeWeapon_IconoclastCleaver</thingDef>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <count>2</count>
+                    <thingDef>Weapon_IconoclastAssaultRifle</thingDef>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Weapon_IconoclastRevolver</thingDef>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <count>2</count>
+                    <thingDef>Apparel_FullCranialHelmet</thingDef>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Apparel_AntiRiotGear</thingDef>
+                    <count>2</count>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Apparel_HeavyConstructionGear</thingDef>
+                    <count>2</count>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Apparel_VentedMark3Helm</thingDef>
+                    <count>2</count>
+                </li>
+
+                <!-- Starting research -->
+                <li Class="ScenPart_StartingResearch">
+                    <def>StartingResearch</def>
+                    <project>Research_Starting</project>
+                </li>
+
+                <!-- Game start dialog -->
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>A small band of Iconoclasts leaves Monarch behind to carry the revolution beyond Halcyon.</text>
+                    <closeSound>GameStartSting</closeSound>
+                </li>
+
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>ShipChunk</thingDef>
+                    <allowRoofed>false</allowRoofed>
+                    <count>3</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>Steel</thingDef>
+                    <count>720</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <count>7</count>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+
+
+</Defs>

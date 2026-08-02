@@ -8,7 +8,7 @@
 <!--__Assault Rifle__-->
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Weapon_AssaultRifle</defName>
+    <defName>OW_Weapon_AssaultRifle</defName>
     <label>Assault Rifle</label>
     <techLevel>Spacer</techLevel>
     <description>Can't decide on what weapon characteristics are most important to you? Forget to switch weapons during a fight? This T and L assault rifle is for you. It's always a good choice.</description>
@@ -44,7 +44,7 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <weaponTags>
-      <li>Weapon_AssaultRifle</li>
+      <li>OW_Weapon_AssaultRifle</li>
     </weaponTags>
     <verbs>
       <li>
@@ -708,6 +708,84 @@
       </skillRequirements>
       <displayPriority>410</displayPriority>
     </recipeMaker>
+  </ThingDef>
+
+ <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>OW_Grenade</defName>
+    <label>frag grenades</label>
+    <description>Old-school fragmentation grenades. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby.</description>
+    <recipeMaker>
+      <researchPrerequisite>Machining</researchPrerequisite>
+    </recipeMaker>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>OWGrenade/OWGrenade_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.3</uiIconScale>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+      <WorkToMake>12000</WorkToMake>
+    </statBases>
+    <costList>
+      <Steel>20</Steel>
+      <Chemfuel>80</Chemfuel>
+    </costList>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+      <li>EmpireGrenadeDestructive</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <smeltable>true</smeltable>
+    <verbs>
+      <li>
+        <label>throw frag grenade</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>12.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>Proj_GrenadeFrag</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.66</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="BaseFragGrenadeProjectile" ParentName="BaseGrenadeProjectile" Abstract="True">
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Weapons/OWGrenade_Projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>1.9</explosionRadius >
+      <damageDef>Bomb</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionDelay>100</explosionDelay>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseFragGrenadeProjectile">
+    <defName>Proj_GrenadeFrag</defName>
+    <label>frag grenade</label>
   </ThingDef>
 
 </Defs>

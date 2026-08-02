@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+<ThingDef ParentName="BuildingBase">
+		<defName>Iconoclast_Banner</defName>
+		<label>Iconoclast banner</label>
+		<description>Iconoclast Banner meant to be installed in key locations to inspire the sentiment of the Iconoclasts.</description>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<selectable>true</selectable>
+		<fillPercent>0.20</fillPercent>
+		<pathCost>14</pathCost>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<designationCategory>Furniture</designationCategory>
+		<rotatable>true</rotatable>
+		<size>(1,1)</size>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Buildings/IconoclastBanner/IconoclastBanner</texPath>
+			<drawSize>(2.9,2.9)</drawSize>
+			<drawOffset>(0,0,0.7)</drawOffset>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Mass>3</Mass>
+			<Beauty>200</Beauty>
+		</statBases>
+		<researchPrerequisites>
+			<li>pphhyy_URMCBasic</li>
+		</researchPrerequisites>
+		<uiIconScale>0.4</uiIconScale>
+		<costList>
+			<Steel>40</Steel>
+			<Cloth>60</Cloth>
+		</costList>
+	</ThingDef>
+
+</Defs>
