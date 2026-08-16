@@ -17,7 +17,7 @@ The revolution has landed. Now it must endure.</description>
             <summary>A small band of Iconoclasts leaves Monarch behind to carry the revolution beyond Halcyon.</summary>
             <playerFaction>
                 <def>PlayerFaction</def>
-                <factionDef>PlayerColony</factionDef>
+                <factionDef>Faction_Iconoclast</factionDef>
             </playerFaction>
             <parts>
 

@@ -32,7 +32,7 @@
 			<Beauty>200</Beauty>
 		</statBases>
 		<researchPrerequisites>
-			<li>pphhyy_URMCBasic</li>
+			<li>Research_Starting</li>
 		</researchPrerequisites>
 		<uiIconScale>0.4</uiIconScale>
 		<costList>

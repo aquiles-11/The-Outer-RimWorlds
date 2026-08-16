@@ -22,7 +22,7 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>Leader</leaderTitle>
-        <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+        <factionIconPath>UI/IconoclastIcon</factionIconPath>
         <techLevel>Spacer</techLevel> 
         <fixedName>Iconoclasts</fixedName>
         <settlementNameMaker>NamerSettlementEmpire</settlementNameMaker>
@@ -156,7 +156,7 @@
                 </options>
             </li>
         </pawnGroupMakers>
-        <settlementTexturePath>World/WorldObjects/Expanding/Town</settlementTexturePath>
+        <settlementTexturePath>UI/IconoclastIcon</settlementTexturePath>
 
     </FactionDef>
 
