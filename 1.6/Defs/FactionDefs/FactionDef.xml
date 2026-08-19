@@ -2,7 +2,7 @@
 
 <Defs>
 
-   <FactionDef ParentName="FactionBase">
+    <FactionDef ParentName="FactionBase">
         <defName>Faction_Iconoclast</defName>
         <label>Iconoclasts</label>
         <description>The Iconoclasts are a group of survivalists living in the ruins of Amber Heights on Monarch. They hope to one day tear down the Halcyon Holdings Corporate Board that they believe has brought the colony to the brink of death.</description>
@@ -10,8 +10,8 @@
             <li>(1, 1, 1)</li>
         </colorSpectrum>
         <fixedLeaderKinds>
-			<li>Iconoclast_Leader</li>
-		</fixedLeaderKinds>
+            <li>Iconoclast_Leader</li>
+        </fixedLeaderKinds>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <pawnSingular>Iconoclast</pawnSingular>
         <pawnsPlural>Iconoclasts</pawnsPlural>
@@ -23,13 +23,24 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>Leader</leaderTitle>
         <factionIconPath>UI/IconoclastIcon</factionIconPath>
-        <techLevel>Spacer</techLevel> 
+        <techLevel>Spacer</techLevel>
         <fixedName>Iconoclasts</fixedName>
         <settlementNameMaker>NamerSettlementEmpire</settlementNameMaker>
         <allowedCultures>
             <li>Astropolitan</li>
         </allowedCultures>
-
+        <permanentEnemyToEveryoneExcept>
+            <li>OutlanderCivil</li>
+            <li>TribeCivil</li>
+            <li>PlayerTribe</li>
+            <li>PlayerColony</li>
+            <li>Ancients</li>
+            <li>IconoclastColony</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Beggars</li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">ResearchExpedition</li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">GravshipCrew</li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">TradersGuild</li>
+        </permanentEnemyToEveryoneExcept>
         <!--__________ Ideology __________-->
 
         <!--<fixedIdeo>true</fixedIdeo>
@@ -59,12 +70,12 @@
         </xenotypeSet>
 
         <!--__________ Backstories __________-->
-        
+
         <backstoryFilters>
             <li>
                 <categoriesChildhood>
                     <li>Offworld</li>
-                  </categoriesChildhood>
+                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>Offworld</li>
                 </categoriesAdulthood>
@@ -75,26 +86,26 @@
         <!--__________ Kinds __________-->
 
         <!-- Caravan Trader Kinds -->
-        
+
         <caravanTraderKinds>
-           <li>Caravan_Outlander_BulkGoods</li>
-      <li>Caravan_Outlander_CombatSupplier</li>
+            <li>Caravan_Outlander_BulkGoods</li>
+            <li>Caravan_Outlander_CombatSupplier</li>
         </caravanTraderKinds>
 
         <!-- Vistor Trader Kinds -->
-        
+
         <visitorTraderKinds>
             <li>Visitor_Outlander_Standard</li>
         </visitorTraderKinds>
 
         <!-- Base Trader Kinds -->
-        
+
         <baseTraderKinds>
             <li>Base_Outlander_Standard</li>
         </baseTraderKinds>
 
         <!-- Trader Kind Arrival Options -->
-        
+
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
         <raidLootMaker>Iconoclasts_RaidLootMaker</raidLootMaker>
         <maxPawnCostPerTotalPointsCurve>
@@ -108,7 +119,7 @@
         </maxPawnCostPerTotalPointsCurve>
 
         <!--__________ Group Makers __________-->
-        
+
         <pawnGroupMakers>
 
             <li>
