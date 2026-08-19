@@ -4,7 +4,7 @@
 
    <FactionDef ParentName="FactionBase">
         <defName>Faction_Iconoclast</defName>
-        <label>Iconoclast Faction</label>
+        <label>Iconoclasts</label>
         <description>The Iconoclasts are a group of survivalists living in the ruins of Amber Heights on Monarch. They hope to one day tear down the Halcyon Holdings Corporate Board that they believe has brought the colony to the brink of death.</description>
         <colorSpectrum>
             <li>(1, 1, 1)</li>
