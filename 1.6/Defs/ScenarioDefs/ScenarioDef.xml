@@ -17,7 +17,7 @@ The revolution has landed. Now it must endure.</description>
             <summary>A small band of Iconoclasts leaves Monarch behind to carry the revolution beyond Halcyon.</summary>
             <playerFaction>
                 <def>PlayerFaction</def>
-                <factionDef>IconoclastColony</factionDef>
+                <factionDef>PlayerColony</factionDef>
             </playerFaction>
             <parts>
 
@@ -140,38 +140,6 @@ The revolution has landed. Now it must endure.</description>
         </scenario>
     </ScenarioDef>
 
-<FactionDef ParentName="PlayerFactionBase">
-    <defName>IconoclastColony</defName>
-    <label>Iconoclast Colony</label>
-    <description>A colony of iconoclasts who recently arrived to the planet.</description>
-    <isPlayer>true</isPlayer>
-    <basicMemberKind>Iconoclast Colonist</basicMemberKind>
-    <pawnSingular>colonist</pawnSingular>
-    <pawnsPlural>colonists</pawnsPlural>
-    <techLevel>Industrial</techLevel>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-    <allowedCultures><li>Astropolitan</li></allowedCultures>
-    <backstoryFilters>
-      <li>
-        <categories>
-          <li>Offworld</li>
-        </categories>
-      </li>
-    </backstoryFilters>
-    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
-    <startingResearchTags>
-      <li>ClassicStart</li>
-    </startingResearchTags>
-    <startingTechprintsResearchTags>
-      <li>ClassicStart</li>
-      <li>ClassicStartTechprints</li>
-    </startingTechprintsResearchTags>
-    <apparelStuffFilter>
-      <thingDefs>
-        <li>Synthread</li>
-      </thingDefs>
-    </apparelStuffFilter>
-  </FactionDef>
+
 
 </Defs>
